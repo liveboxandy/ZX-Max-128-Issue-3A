@@ -20,21 +20,37 @@ with regards to copper tracing and via positions.
 For the jumpers/connectors on the board,
 
 J1 8 Way Keyboard Connector
+
 J2 5 Way Keyboard Connector
+
 J3 ZX Expansion Connector
+
 J4 DC Input - can be any polarity. 
+
 J5 Video is a TRRS, Tip-Video,RR-Left/Right, Screen-Ground.
+
 J6 Ear/Mic. Wired as per ZX Spectrum 128K +3. TRS. Tip-Mic, Ring-Ear, Screen-Ground.
+
 J7 Not Used
+
 J8 SCART, mates with a Sega megadrive cable.
+
 J9 Not Used
+
 J10 EPROM/EEPROM selection, 1-2 & 3-4 UVEPROM, 1-3 & 2-4 EEPROM.
+
 J11 Speaker On/Off
+
 J12 Not Used
+
 J13 Not Used
+
 J14 JTAG for the EPM7128 wired as standard to an Altera device.
+
 J15 Not Used
+
 J16 Disable DivMMC, close = enable DivMMC, open = disable DivMMC or need to update program on U17
+
 SW1 RESET
 
 From information on the original website,
