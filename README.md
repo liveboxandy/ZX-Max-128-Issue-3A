@@ -37,7 +37,7 @@ J8 SCART, mates with a Sega megadrive cable.
 
 J9 Not Used
 
-J10 EPROM/EEPROM selection, 1-2 & 3-4 UVEPROM, 1-3 & 2-4 EEPROM.
+J10 EEPROM/UVEPROM selection, EEPROM 2-4/1-3, UVEPROM 2-1/4-3.
 
 J11 Speaker On/Off
 
