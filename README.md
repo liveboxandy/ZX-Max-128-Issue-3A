@@ -2,7 +2,8 @@
 KiCAD created files for the ZX Max 128 Issue 3A designed by DonSuperfo
 
 This Kicad project has only been done so as to allow for a proper ibom that 
-includes tracks and vias to be created.
+includes tracks and vias to be created so as to make assembling easier.
+
 I have tried to ensure that the footprints were located 
 as close as possible to those in the original as well trying to follow 
 the existing track and via locations. Some of the footprints that were 
@@ -16,6 +17,14 @@ use these gerbers to have a pcb manufactured without having another set of
 eyes checking that the schematic that I have produced is correct to that 
 produced by DonSuperfo and that the pcb data from Kicad reports no major errors 
 with regards to copper tracing and via positions.
+
+The KiCAD schematics 'should' be correct but nothing should be assumed as correct without checking with the original schematic and PCB layout. Although I have followed the original track and via layout further checking should be done before using these files to order a pcb with. Currently I would still order the pcb from PCBWay using the link from https://github.com/DonSuperfo/ZX-Max-128
+
+Note that any part number for any device used in this project might not be the correct one from the original BOM as supplied from PCBWay as I had to change some parts to get a footprint that would fit in the space on the original pcb with the correct pin spacing. This required selecting a different part number or vendor. This applies mainly to capacitors. Some other parts are no longer available under that number from Digikey.
+
+As always, measure twice and order one.
+
+Use at your own risk.
 
 For the jumpers/connectors on the board,
 
@@ -53,7 +62,7 @@ J16 Disable DivMMC, close = enable DivMMC, open = disable DivMMC or need to upda
 
 SW1 RESET
 
-From information on the original website,
+From information on the original website ,
 
 In order to make ACB output more balanced I would recommend following the -4.5dB 
 panning law rule and make these updates:
